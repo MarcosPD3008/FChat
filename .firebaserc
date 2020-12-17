@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "heroesapp-f92f9": {
+      "hosting": {
+        "FChat": [
+          "heroesapp-f92f9"
+        ]
+      }
+    },
+    "firechat-afe3a": {
+      "hosting": {
+        "FChat": [
+          "firechat-afe3a"
+        ]
+      }
+    }
+  }
+}

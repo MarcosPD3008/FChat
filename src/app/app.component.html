@@ -1,0 +1,14 @@
+<div class="container main-container">
+  <h1 class="text-center text-danger">FireChat</h1><hr>
+
+  <div class="col-md-12 text-right" *ngIf="cs.User.uid">
+    <h3 class="text-center float-left">{{ cs.User.Nombre }}: </h3>
+    <button class="btn btn-outline-danger" (click)="cs.logout()">LogOut</button>
+  </div>
+
+  <app-log-in *ngIf="!cs.User.uid"></app-log-in><hr>
+
+  <div class="chat-window centrado" *ngIf="cs.User.uid">
+    <app-chats></app-chats>
+  </div>
+</div>

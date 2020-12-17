@@ -1,0 +1,71 @@
+.main-container{
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.puntero{
+  cursor: pointer;
+}
+
+.centrado{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.chat-window{
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: hidden;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+hr{
+  border-color: red !important;
+}
+
+.app-mensajes{
+  overflow:scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height:270px;
+  background:whitesmoke;
+  padding: 5px;
+}
+
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
